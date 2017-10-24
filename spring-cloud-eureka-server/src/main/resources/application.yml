@@ -1,0 +1,9 @@
+server:
+  port: 8761
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+    #service-url:
+      #新版本defaultZone配置项不存在
+
