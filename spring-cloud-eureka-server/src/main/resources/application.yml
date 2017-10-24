@@ -4,6 +4,9 @@ eureka:
   client:
     register-with-eureka: false
     fetch-registry: false
+spring:
+  application:
+    name: single-eureka-server
     #service-url:
-      #ĞÂ°æ±¾defaultZoneÅäÖÃÏî²»´æÔÚ
+      #ï¿½Â°æ±¾defaultZoneï¿½ï¿½ï¿½ï¿½ï¿½î²»ï¿½ï¿½ï¿½ï¿½
 
