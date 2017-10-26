@@ -1,12 +1,16 @@
+spring:
+  application:
+    name: single-eureka-server
+
 server:
   port: 8761
+
 eureka:
   client:
     register-with-eureka: false
     fetch-registry: false
-spring:
-  application:
-    name: single-eureka-server
-    #service-url:
-      #�°汾defaultZone���������
+    service-url:
+      defaultZone: http://localhost:8761/eureka1/
+
+
 
